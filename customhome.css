@@ -1,0 +1,80 @@
+body{
+    background-image: url("bg05.jpg");
+    background-size: 1920px 1080px
+}
+
+.wrapper{
+    background-color: rgba(255, 255, 255, 0.493);
+    width: 1000px;
+    padding: 20px;
+    margin: 25px auto 0;
+    box-shadow: 10px 10px 5px 5px rgba(102, 102, 102, 0.274);
+    border-radius: 30px;
+}
+
+/* ควบคุมการแสดงผลของแถบด้านขวา */
+.rightcolumn {
+    margin-left: 230px; /* ให้เนื้อหาของด้านขวาขยับไปทางขวาเพื่อหน้าทับหน้า */
+    height: 100%; /* ทำให้เนื้อหาด้านขวาเต็มความสูงของหน้าเว็บ */
+    overflow-y: auto; /* ให้มีการเลื่อนถ้าเนื้อหายาวเกินขนาด */
+}
+
+/* ควบคุมการแสดงผลของแถบด้านซ้าย */
+.leftcolumn {
+    position: fixed; /* ทำให้แถบด้านซ้ายติดอยู่ที่ด้านซ้าย */
+    top: 0; /* อาจจะต้องปรับตำแหน่งให้เหมาะสม */
+    left: 0;
+    height: 100%; /* ทำให้แถบด้านซ้ายเต็มความสูงของหน้าเว็บ */
+    width: 230px; /* กำหนดความกว้างของแถบด้านซ้าย */
+    overflow-y: auto; /* ให้มีการเลื่อนถ้าเนื้อหายาวเกินขนาด */
+}
+
+.btn{
+    width: 1000px;
+    padding: 20px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+.sha
+{
+    box-shadow: 10px 10px 5px 5px rgba(102, 102, 102, 0.274);
+}
+
+.cc
+{
+    padding: 60px;
+    display: table;
+}
+
+.btnsubmit{
+    width: 20px;
+    padding: 20px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+.btnedit{
+    width: 960px;
+    padding: 20px;
+    margin: 20px 20px;
+    border-radius: 30px;
+}
+
+.sidebar01{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.wrapper2{
+    background-color: rgb(255, 127, 80);
+    color: white;
+    width: 1000px;
+    padding: 20px;
+    margin: 25px auto 0;
+    box-shadow: 10px 10px 5px 5px rgba(102, 102, 102, 0.274);
+    border-radius: 30px;
+}
